@@ -31,11 +31,12 @@ What accumulates in that directory:
 | `RESOURCES.md` | The vetted sources it teaches from, split into Knowledge and Wisdom (communities) |
 | `lessons/*.html` | The numbered lessons: the primary unit of teaching |
 | `reference/*.html` | Compressed cheat-sheets, algorithms, glossaries: the documents you actually return to |
+| `GLOSSARY.md` | The workspace's canonical vocabulary, opinionated about which word wins, added to only once you can use a term correctly |
 | `learning-records/*.md` | ADR-style notes on what you have demonstrably learned, used to decide what to teach next |
 | `assets/*` | Reusable components, starting with a shared stylesheet, so the lessons look like one course |
 | `NOTES.md` | Your stated teaching preferences |
 
-Two honest notes on that list. A glossary suits most topics, but the skill ships a `GLOSSARY-FORMAT.md` that `SKILL.md` no longer links to, so you will only get one if you ask ([issue #559](https://github.com/mattpocock/skills/issues/559)). And the workspace is not always created where you expect, so see the first question below before you build a long course on top of it.
+One honest note on that list: the workspace is not always created where you expect, so see the first question below before you build a long course on top of it.
 
 ## Storage strength, not fluency
 
